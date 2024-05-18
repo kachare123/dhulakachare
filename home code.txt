@@ -1,0 +1,153 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="online_shop.Home" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style13 {
+            text-align: right;
+            height: 734px;
+        }
+        .auto-style14 {
+            text-align: center;
+            width: 1301px;
+        }
+        .auto-style19 {
+            width: 100%;
+            height: 545px;
+        }
+        .auto-style20 {
+            width: 261px;
+            text-align: center;
+        }
+        .auto-style21 {
+            width: 270px;
+            text-align: center;
+        }
+        .auto-style22 {
+            width: 244px;
+            text-align: center;
+        }
+        .auto-style23 {
+            width: 249px;
+            text-align: center;
+        }
+        .auto-style24 {
+            text-align: center;
+            width: 1301px;
+            height: 310px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table class="auto-style13">
+        <tr style="width:1110px; ">
+                    <td colspan="3" class="auto-style24">
+                        <div class="auto-style9">
+                        <contentTemplate>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <table align="center" class="auto-style19">
+                            <tr>
+                                <td class="auto-style20">
+                                    <asp:Image ID="Image10" runat="server" Height="181px" ImageUrl="~/banner/Desk.jpg" Width="231px" />
+                                    <br />
+                                    <br />
+                                    <asp:Button ID="Button1" runat="server" Text="Leptop"  Width="72px"  />
+                                </td>
+                                <td class="auto-style21">
+                                    <asp:Image ID="Image11" runat="server" Height="173px" ImageUrl="~/banner/smart.jpeg" Width="181px" />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label2" runat="server" Text="Apple Smartwatch"></asp:Label>
+                                    </strong></td>
+                                <td class="auto-style22">
+                                    <asp:Image ID="Image12" runat="server" Height="173px" ImageUrl="~/banner/mob.jpeg" Width="181px" />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label3" runat="server">Karbon Smartphone</asp:Label>
+                                    </strong></td>
+                                <td class="auto-style23">
+                                    <asp:Image ID="Image13" runat="server" Height="173px" ImageUrl="~/banner/snd.jpeg" Width="181px" />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label4" runat="server" Text="Jbl Speaker"></asp:Label>
+                                    </strong></td>
+                                <td class="auto-style9">
+                                    <asp:Image ID="Image14" runat="server" Height="168px" ImageUrl="~/banner/Screenshot 2023-05-08 103643.png" Width="181px" />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label5" runat="server" Text="Canon Camera"></asp:Label>
+                                    </strong></td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style20">
+                                    <asp:Image ID="Image15" runat="server" Height="187px" ImageUrl="~/Images/Screenshot 2023-05-08 104501.png" Width="193px" />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label6" runat="server" Text="Iphone Earbuds"></asp:Label>
+                                    </strong>
+                                    <br />
+                                </td>
+                                <td class="auto-style21">
+                                    <asp:Image ID="Image16" runat="server" Height="187px" ImageUrl="~/Images/Screenshot 2023-05-08 133214.png" Width="193px" />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label7" runat="server" Text="Philips Iron"></asp:Label>
+                                    </strong></td>
+                                <td class="auto-style22">
+                                    <asp:Image ID="Image17" runat="server" Height="187px" ImageUrl="~/Images/Screenshot 2023-05-08 150512.png" Width="198px" />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label8" runat="server" Text="Samsung Smartwatch"></asp:Label>
+                                    </strong></td>
+                                <td class="auto-style23">
+                                    <asp:Image ID="Image18" runat="server" Height="187px" ImageUrl="~/Images/Screenshot 2023-05-08 144324.png" Width="205px" />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label9" runat="server" Text="Bolt Headphone"></asp:Label>
+                                    </strong></td>
+                                <td class="auto-style9">
+                                    <asp:Image ID="Image19" runat="server" Height="187px" ImageUrl="~/Images/sam3.jpg" Width="206px" />
+                                    <br />
+                                    <br />
+                                    <strong>
+                                    <asp:Label ID="Label10" runat="server" Text="Samsung Smartphone"></asp:Label>
+                                    </strong></td>
+                            </tr>
+                        </table>
+                        <div class="auto-style9">
+                        </contentTemplate>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+&nbsp;<br />
+                        <br />
+                        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <br />
+                        </div>
+                    </td>
+                </tr>
+        <tr>
+            <td class="auto-style14">&nbsp;</td>
+        </tr>
+    </table>
+    
+</asp:Content>
